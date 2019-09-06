@@ -1,0 +1,39 @@
+
+
+L'exercice consiste à construire la page de l'image page.png à l'aide des éléments des dossiers images et polices (nb conservez les repertoires tels quels).
+
+
+Plusieurs tendances pour qui s'apprete à construire un site:
+- favoriser le design : créér les CSS à mesure qu'on construit l'HTML. faire une section et tester sa mise en forme
+- une tendance plus rationnelle serait de creer d'abord toute la structure HTML et de faire ensuite la mise en forme. c'est celle qui est conseillée.
+
+
+
+Conseils:
+- Pensez la structure globale en utilisant les balises sémantiques HTML 5
+- utilisez des div pour des sous-section ou quand aucune balise HTML 5 ne convient mais n'en abusez pas au rique de noyer votre code et de vous retrouver avec des margin et padding indésirable qui vous feront prendre le sens des mesures (la taille des blocs)
+- l'auteur du TP propose la découpage quie vous trouverez dans l'image decoupage.png . c'est une solution. peut être y en a t'il d'autres.
+- pensez à utilser le mega-tip qui consiste à envelopper le site dans une balise qui se placera juste après body et qui permettra de centrer tout le contenu (tip: taille et margin)
+- codez proprement: fermez directement la balise que vous ouvrez et remplissez là dans un second temps, sautez des lignes, faite des tabulation (indentez le code : chaque balise fermante doit être sur le même axe vertical que sa balise ouvrante)
+
+Pour le déroulement du travail l'auteur du TP conseille de:
+A. créer d'abord la structure HTML
+
+B. ajouter les styles en s'interessant à un problème après l'autre
+    Polices personnalisées :    Trebuchet MS (police courante), BallparkWeiner et Day Roman (police importées).
+
+    Définition des styles principaux de la page (largeur du site, fond, couleur par défaut du texte).
+
+    En-tête et liens de navigation.
+
+    Bannière (représentant le pont de San Francisco).
+
+    Section principale du corps de page, au centre.
+
+    Pied de page (footer).
+
+
+Remarques, éléments nouveaux et points de détail si vous avez le temps
+pour metter en forme les puces des listes utilisez la propriété "list-style-image:url('images/ico_liensexterne.png');" sur la balise <ul> de la section des amis (bas de page)
+pour la mise en forme du bouton voir l'article vous pouvez utilisez comme background l'image fournie (images/fond_degraderouge.png) ou vous interesser à la prorieté de dégradé : linear gradient . googlisez "linear gradient".
+

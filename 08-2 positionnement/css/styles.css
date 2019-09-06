@@ -1,0 +1,29 @@
+body{
+	margin:0; /* suppr marge par defaut */
+}
+
+
+#contener
+{
+	width: 500px;
+	border: 1px solid #000;
+	
+}
+
+#navigation
+{
+	display: inline-block;
+	background: #F00;
+	width: 49%;
+	
+	
+}
+
+#recherche
+{
+	display: inline-block;
+	background: green;
+	width: 49%;
+	vertical-align:     top;       /* valeur top, center, baseline*/
+	
+}
